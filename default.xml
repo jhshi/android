@@ -17,11 +17,6 @@
       sync-c="true"
       sync-j="4" />
 
-  <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="all" revision="master" remote="opengapps" />
-  <!-- If you need other/additional targets, follow the same template: -->
-  <project path="vendor/opengapps/sources/arm" name="arm" revision="master" remote="opengapps" />
-
   <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
