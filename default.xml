@@ -7,11 +7,9 @@
       revision="refs/tags/android-6.0.1_r24" />
 
   <remote  name="github"
-      fetch=".."
+      fetch="https://github.com/CyanogenMod/"
       review="review.cyanogenmod.org" />
 
-  <remote  name="private"
-      fetch="ssh://git@github.com" />
   <remote name="opengapps" fetch="https://github.com/opengapps/"  />
 
   <default revision="refs/heads/stable/cm-13.0-ZNH2K"
